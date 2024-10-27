@@ -1,0 +1,91 @@
+.containerhelp {
+     /* Use flexbox for layout */
+     height: fit-content;
+     display: flex;
+  }
+  
+  .text-contenthelp {
+    flex: 1; /* Take up one part of the flex container */
+    display: flex; /* Use flexbox to center text */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center vertically */
+    align-items: flex-start; /* Align text to the left */
+    padding: 20px; /* Add some padding */
+     /* Text color */
+     
+     font: bold;
+     font-family: 'Montserrat', sans-serif; /* or your chosen font */
+    font-size: 25px;
+    padding-left: 100px;
+    background-color: rgb(204, 162, 90);
+  }
+  
+ 
+  .volunteer-text {
+    width: 80%; /* Occupies 80% of the screen width */
+    max-width: 1200px; /* Maximum width for readability */
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.8; /* Increased line height for better readability */
+    padding: 20px;
+  }
+  
+  /* Individual paragraphs styling */
+  .volunteer-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px; /* Space between paragraphs */
+    color: #333; /* Adjust text color if necessary */
+  }
+  
+  /* Image styling */
+  .volunteer-text img {
+    display: block;
+    margin: 30px auto; /* Centers the image with space around it */
+    max-width: 100%; /* Ensure the image scales responsively */
+    height: auto;
+    border-radius: 10px; /* Optional: rounded corners for the image */
+  }
+  .stack-button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .volunteer-head{
+    color:orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .shapes{
+    border-radius: 50%;
+    border: 2px solid green;
+    height: 20px;
+    width:20px;
+    background-color: green;
+  }
+  .div1{
+    gap:10px;
+   display: flex;
+   flex-direction: column;
+  }
+  .entirestext{
+   text-align: left;
+   
+  }
+ .selectionprocess{
+   background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+ }
+ .imgandtext{
+   justify-content: center;
+   max-width: 900px;
+  gap:30px;
+  align-items: flex-start;
+ }
+ .imgandtext img{
+  border-radius: 5px;
+  width:350px;
+  height:auto;
+ }
+ 
