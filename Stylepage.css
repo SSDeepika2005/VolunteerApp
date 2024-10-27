@@ -1,0 +1,98 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif; /* Change to your preferred font */
+}
+
+#form-container {
+    background-color: antiquewhite;
+    padding: 30px; /* Increase padding */
+    border-radius: 10px;
+    width: 400px; /* Increase width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+.reg {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0D0D0D;
+    font-family: 'Roboto', sans-serif; /* Ensure the heading uses the same font */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form label {
+    margin-bottom: 5px;
+    color: #0D0D0D;
+}
+
+.form input {
+    width: 90%; /* Reduce width */
+    padding: 6px; /* Reduce padding */
+    border: 1px solid #0D0D0D;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000;
+    font-family: 'Roboto', sans-serif; /* Apply font family to inputs */
+}
+
+.form input:focus {
+    outline: none;
+    border-color: #5271C4;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.but {
+    background-color: #a18cd1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.but:hover {
+    background-color: #fbc2eb;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    color: #0D0D0D;
+}
+
+#background-container {
+    background-image: url('https://www.shutterstock.com/shutterstock/photos/2094948694/display_1500/stock-vector-group-of-people-in-circle-from-diverse-culture-holding-hands-cooperation-and-teamwork-community-of-2094948694.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#form-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    padding-right: 5%;
+}
