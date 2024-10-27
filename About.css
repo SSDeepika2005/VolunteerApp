@@ -1,0 +1,40 @@
+.pic img {
+    width: 250px; /* Set the desired width */
+    height: 250px; /* Set the desired height */
+    object-fit: cover; /* Ensures the image fills the box without distortion */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for better aesthetics */
+     padding: 10px;
+}
+.containerabt{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between the image cards */
+    justify-content: center;
+}
+.pic p{
+    font-family: poppins;
+    color: brown;
+    width:250px;
+    font-family: 'Georgia', serif; /* Use Georgia for a classic look */
+    font-weight: normal; /* Regular weight for body text */
+    color:rgb(176, 52, 176);
+    padding: 10px;
+    
+}
+.pic:hover{
+    border-radius: 5px;
+    color:white;
+    background-color: rgb(85, 180, 227);
+    
+}
+.pic p:hover{
+    color:white;
+    font-size: larger;
+}
+.about{
+    padding-top: 20px;
+}
+.abtheads{
+    padding-top: 50px;
+}
